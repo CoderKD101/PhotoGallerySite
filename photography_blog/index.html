@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kshit Captures</title>
+    <meta name="keywords" content="kshitcaptures">
+    <meta name="description"
+        content='"Explore a world of photography that captures life as it happens—genuine, unposed, and filled with emotion."'>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <!-- Main Section -->
+    <section id="home" class="main-section">
+        <div class="navbar">
+            <div class="logo">
+                <img src="/images/logo.jpg" alt="logo" style="height: 8rem; ">
+            </div>
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#blog">Blog</a>
+                <a href="#captures">Captures</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+        <hr color="#000000">
+        <div class="hero-section">
+            <h1>"Capturing life as it happens"</h1>
+            <img src="/images/Camera-image.jpg" alt="camera image" style="height: 15rem; border-radius: 100px;">
+            <p>Hi, I'm Kshitija Darde, an enthusiastic begineer in the world of photography.
+                My journey began with a deep curiosity about capturing life's moments and telling stories through
+                images.
+                Thank you for visiting and joining me on this exciting journey.</p>
+        </div>
+    </section>
+    <!-- Work Section -->
+    <section id="captures" class="work-section">
+        <h2>Captures</h2>
+        <div class="container">
+            <img src="/images/captures/one.jpg" alt="Whispers of the Wild">
+            <img src="/images/captures/two.jpg" alt="Endless Horizons">
+            <img src="/images/captures/three.jpg" alt="Sunlit Silence">
+            <img src="/images/captures/four.jpg" alt="Ascent">
+            <img src="/images/captures/five.jpg" alt="Sanctuary">
+            <img src="/images/captures/six.jpg" alt="Skyline">
+        </div>
+        <div class="first-btn">
+            <button> <a href="captures.html" target="_blank">More Captures</a></button>
+        </div>
+        <h1>"The Blog Hub: Where Ideas Meet"</h1>
+        <div id="blog" class="blog-section">
+            <a href="blog1.html" target="_blank"><img src="/images/blog-image/Blog 1.jpg" alt="Mobile Photography">
+                <h2>Enhance Your Shots...</h2>
+            </a>
+
+            <a href="blog2.html" target="_blank"><img src="/images/blog-image/Blog 2.jpg" alt="Mobile Photography ">
+                <h2>Creating Drama with Light...</h2>
+            </a>
+        </div>
+
+        <div id="about" class="abt-me">
+            <h2>About me</h2>
+            <p>Hi, I’m Kshitija Darde. Welcome to my photography blog! I'm a tech enthusiast diving into photography as
+                a passionate beginner. My background in technology fuels my curiosity about mobile photography, and I’m
+                excited to explore this creative field with my smartphone. </p>
+            <p>As a newcomer, I’m eager to learn and grow in this art form. My mobile phone is my main tool, and I’m
+                enthusiastic about using its features to capture captivating images and experiment with different
+                styles. I’m fascinated by how technology can simplify and enhance the photography process, allowing us
+                to create beautiful visuals effortlessly. </p>
+            <p>I’m drawn to photographing everything from everyday moments to unique perspectives, always seeking to
+                uncover the beauty in both the ordinary and the extraordinary. This blog is a space where I document my
+                progress and share my discoveries. </p>
+            <p>Thank you for joining me on this exciting journey. I’m looking forward to connecting with fellow
+                photography enthusiasts and learning from the community. Let’s explore the world of mobile photography
+                together and see where this adventure leads us!</p>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+
+        <form class="first-form" action="mail.php" method="post">
+            <h2>Contact Me</h2>
+            <div class="form-control">
+                <label for="name" id="label-name">Name</label>
+                <input type="text" name="name" id="name" required>
+            </div>
+            <div class="form-control">
+                <label for="email" id="label-email">Email</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div class="form-control">
+                <label>Any comments or suggestion</label>
+                <textarea name="comment" id="comment" rows="10" required></textarea>
+            </div>
+            <button type="submit" value="submit">Submit</button>
+        </form>
+        <aside>
+            <img src="/images/captures/beach-image.jpg" alt="beach-image">
+        </aside>
+    </section>
+    <!-- footer -->
+    <footer>
+        <div class="social-link">
+            <a class="instagram" href="https://www.instagram.com/kshitcaptures?igsh=MTE3NGQ4NWt4dG1jcw=="
+                target="_blank">
+                <img src="/images/instagram.png" alt="instagram-icon" style="height: 2rem;">
+            </a>
+            <a class="email" href="mailto:kshitijadarde" target="_blank">
+                <img src="/images/mail.png" alt="email-icon" style="height: 2rem;">
+            </a>
+        </div>
+        <form>
+            <p><strong>"Stay in the loop—subscribe to our blog for fresh content delivered straight to you!" &#128512;
+                </strong></p>
+            <div class="sub">
+                <input type="email" id="mail" placeholder="Email address" name="mail" required>
+            </div>
+            <div class="sub">
+                <input type="submit" value="Subscribe">
+            </div>
+        </form>
+        <p>All images &copy; Kshitija Darde</p>
+    </footer>
+    <!-- Top button -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+        Top</button>
+    <script src="js/topbutton.js"></script>
+</body>
+
+</html>

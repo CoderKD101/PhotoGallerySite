@@ -1,0 +1,262 @@
+body { 
+    font-family: cursive;
+    margin: 0; 
+    padding: 0;
+    background-color:#af6708;
+
+} 
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #af6708;
+    margin: 16px 16px 0 16px;
+    border-radius: 5px;
+    
+}
+.navbar img{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+ nav a {
+    color: #000000; 
+    text-decoration: none; 
+    padding: 10px; 
+    margin-right: 10px; 
+    display: flex; 
+    flex-direction: column;
+    
+} 
+
+.logo img{
+border-radius: 100px;
+
+}
+
+.hero-section {  
+    background-color: #af6708;
+    color: #000000; 
+    text-align: center; 
+    padding: 16px;
+    margin: 16px;
+    border-radius: 5px;
+    background-image: url("/images/name-logo.jpg");
+    background-repeat: space;
+        
+} 
+@media(max-width: 1100px){
+    .hero-section{
+        background-image: none;
+        
+    }
+}
+
+
+ h2{
+    text-align: center;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.container > img { 
+    
+    height: 350px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 16px;
+    border-color: #00000025;
+    border-width: 5px;
+    border-style: solid;
+    
+}
+.abt-me{
+    padding: 16px;
+    margin: 16px;
+}
+
+
+form .first-form{
+    border-radius: 16px;
+    margin: 20px;
+    padding: 50px 20px 50px 20px;
+}
+.form-control {
+    text-align: left;
+    margin-bottom: 25px;
+    
+}
+
+.form-control label{
+    display: block;
+    margin-bottom: 10px;
+    
+}
+
+.form-control input .form-control textarea{
+    border: 5px solid #000000;
+    border-radius: 2px;
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    width: 95%;
+   
+}
+.first-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    
+  
+  
+}
+
+button{
+    text-align: center;
+    font-family: inherit;
+    font-size: 21px;
+    display: block; 
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border-color: #000000;
+    border-style: solid;
+    border-radius: 5px;
+}
+button:hover {
+    opacity: 0.8;
+  }
+button a{
+    text-decoration: none;
+}
+
+.contact-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+aside img{
+    width: 30rem;
+    max-width: 95%;
+    height: 400px;
+    border-radius: 16px;
+    border-color: #00000025;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.social-link{
+    display:flex;
+    justify-content: center;
+    column-gap: 25px;
+}
+footer p{
+    text-align: center;
+}
+.sub{
+    display:flex;
+    justify-content: center;
+    
+}
+  input[type=submit]:hover {
+    opacity: 0.8;
+  }
+
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #f88f06;
+    color: #000000;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: #dd7c0c;
+  }
+ 
+  .first-sec {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.first-sec > img { 
+    justify-content: space-around;
+    height: 500px;
+    width: 250px;
+    margin: 10px;
+    border-radius: 16px;
+    border: 5px solid #00000025 ;
+}
+
+.second-sec {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.second-sec > img { 
+    height: 250px;
+    width: 350px;
+    margin: 10px;
+    border-radius: 16px;
+    border: 5px solid #00000025 ;
+} 
+.blog-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-wrap: wrap;
+    
+}
+h1{
+    text-align: center;
+}
+
+.blog-section > a > img { 
+    
+    height: 350px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 16px;
+    border-color: #00000025;
+    border-width: 5px;
+    border-style: solid; 
+}
+
+.blog-section > a > h2 {
+text-align: center;
+}
+.blog-section > a {
+    text-decoration: none;
+}
+.blog-section > a:hover{
+    color: hotpink;
+}
+.blog1 , .blog2{
+    text-align: left;
+    margin: 2%;
+}
+
+.blog-sec > img{
+    width: 70%;
+    max-width: 95%;
+    height: 400px;
+    border-radius: 16px;
+    border-color: #00000025;
+    border-style: solid;
+    border-radius: 5px;
+    margin: 2% 0 0 15%;
+}
+
