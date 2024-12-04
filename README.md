@@ -68,7 +68,7 @@ This is just the beginning! I plan to:
 
 ## 🖼️ Sneak Peek  
 
-[![KshitCaptures Screenshot](assets/website-preview.png)] 
+[![KshitCaptures Screenshot](assets/website-preview.jpg")](https://kshitcaptures.netlify.app/)  
  
 
 ---
