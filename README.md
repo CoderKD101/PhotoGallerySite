@@ -2,7 +2,7 @@
 
 Welcome to **KshitCaptures**, my first step into the world of web development! This is a personal photography blog website where I share stunning moments captured with my mobile camera and write blogs about mobile photography tips, tricks, and experiences.  
 
-This project reflects both my love for photography and my growing skills as a frontend developer.  
+This project reflects my love for photography and my growing front-end developer skills.  
 
 > **Note**: This is a static website without backend functionality or a database.  
 
@@ -21,7 +21,7 @@ This project reflects both my love for photography and my growing skills as a fr
 
 - **HTML5**: For structuring the website.  
 - **CSS3**: For styling and creating a responsive layout.  
-- **JavaScript**: For adding basic interactivity to enhance the user experience.  
+- **JavaScript**: Adding basic interactivity to enhance the user experience.  
 
 ---
 
@@ -49,7 +49,7 @@ Description:
 
 1. **Clone the Repository**:  
    ```bash  
-   git clone https://github.com/yourusername/kshitcaptures.git  
+   git clone https://github.com/CoderKD101/kshitcaptures.git  
    ```  
 2. **Open the Project**:  
    Navigate to the project folder and open `index.html` in your browser.  
@@ -60,7 +60,7 @@ Description:
 
 This is just the beginning! I plan to:  
 - Add more detailed blogs with engaging content.  
-- Implement a backend to dynamically manage blog posts and images.  
+- Implement a backend to manage blog posts and images dynamically.  
 - Enhance interactivity and animations for a better user experience.  
 - Add categories or tags for blogs and photos.  
 
